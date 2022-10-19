@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "exclude": [
+    "**/dist/**"
+  ],
+  "include": [
+    "**/*.ts",
+    "**/*.d.ts",
+    "**/*.vue",
+    ".vitepress/env.d.ts"
+  ]
+}
